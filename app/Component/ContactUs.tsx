@@ -72,7 +72,7 @@ export default function ContactUs() {
           <div className='text-right'>
             <label htmlFor="name">:الاسم</label>
             <br />
-            <input type="text" required onChange={(e)=>setname(e.target.value)} id='name' placeholder='example'  className='p-2 border-b-2 bg-green-800 text-white text-xl md:text-2xl w-full  outline-none rounded-lg'/>
+            <input type="text" required onChange={(e)=>setname(e.target.value)} id='name' placeholder='محمد ..'  className='p-2 border-b-2 bg-green-800 text-white text-xl md:text-2xl w-full  outline-none rounded-lg'/>
             {name.length <2  && isDone === true?
             <div className=' rounded-xl p-1 text-sm bg-red-500'>
             يجب ان يحتوي الاسم  علي اكثر من حرفين
@@ -94,7 +94,7 @@ export default function ContactUs() {
           <div className='text-right'>
             <label htmlFor="pass">:المهنه</label>
             <br />
-            <input type="text" required  onChange={(e)=>setjop(e.target.value)} id='pass' placeholder='مصر'  className='p-2 border-b-2 bg-green-800 text-white text-xl md:text-2xl w-full  outline-none rounded-lg'/>
+            <input type="text" required  onChange={(e)=>setjop(e.target.value)} id='pass' placeholder='مهنتك'  className='p-2 border-b-2 bg-green-800 text-white text-xl md:text-2xl w-full  outline-none rounded-lg'/>
             {jop.length<2 && isDone === true?
               <div className=' rounded-xl p-1 text-sm bg-red-500'>
                 يجب ان يحتوي المهنه علي اكثر من حرفين
@@ -105,7 +105,7 @@ export default function ContactUs() {
           <div className='text-right'>
             <label htmlFor="country">:الدوله</label>
             <br />
-            <input type="country" required  onChange={(e)=>setcountry(e.target.value)} id='country' placeholder='*********'  className='p-2 border-b-2 bg-green-800 text-white text-xl md:text-2xl w-full  outline-none rounded-lg'/>
+            <input type="country" required  onChange={(e)=>setcountry(e.target.value)} id='country' placeholder='مصر'  className='p-2 border-b-2 bg-green-800 text-white text-xl md:text-2xl w-full  outline-none rounded-lg'/>
             {country.length<2 && isDone === true?
               <div className=' rounded-xl p-1 text-sm bg-red-500'>
                 يجب ان يحتوي المهنه علي اكثر من حرفين
