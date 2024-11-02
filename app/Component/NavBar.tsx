@@ -36,7 +36,7 @@ export default function NavBar() {
         
                 <Link href='/' >الرئيسية</Link>
             
-            <Link href='#' className='hover:scale-110 transition-all duration-300'>المؤتمرات</Link>
+            <Link href='/moatmar' className='hover:scale-110 transition-all duration-300'>المؤتمرات</Link>
             
                 <Link href='#' className='hover:scale-110 transition-all duration-300'>القوائم</Link>
             
