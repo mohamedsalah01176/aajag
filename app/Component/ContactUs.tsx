@@ -25,7 +25,7 @@ export default function ContactUs() {
   useEffect(()=>{
     setValidEmail(validation(regemail,email))
     setValidphone(validation(regphone,phone))
-  },[email,phone])
+  },[email,phone,regemail,regphone])
   const data={
     name,
     phone,
