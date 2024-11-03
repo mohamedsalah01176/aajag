@@ -21,13 +21,13 @@ export default function NavBar() {
             
             <Link href='/moatmar' className='hover:scale-110 transition-all duration-300'>المؤتمرات</Link>
             
-                <Link href='#' className='hover:scale-110 transition-all duration-300'>القوائم</Link>
+                <Link href='#mrayat' className='hover:scale-110 transition-all duration-300'>المرئيات</Link>
             
-                <Link href='#' className='hover:scale-110 transition-all duration-300'>الملتقيات وورش العمل</Link>
+                <Link href='#mltka' className='hover:scale-110 transition-all duration-300'>الملتقيات وورش العمل</Link>
             
-                <Link href='#' className='hover:scale-110 transition-all duration-300'>من نحن </Link>
+                <Link href='#abuate' className='hover:scale-110 transition-all duration-300'>من نحن </Link>
             
-                <Link href='#' className='hover:scale-110 transition-all duration-300'>التواصل</Link>
+                <Link href='#conectus' className='hover:scale-110 transition-all duration-300'>التواصل</Link>
         </div>
 
         <FaBars className='text-2xl font-bold cursor-pointer lg:hidden hover:scale-125 transition-all duration-300' onClick={()=>setOpen(!open)}/>
@@ -36,15 +36,15 @@ export default function NavBar() {
         
                 <Link href='/' >الرئيسية</Link>
             
-            <Link href='#' className='hover:scale-110 transition-all duration-300'>المؤتمرات</Link>
+            <Link href='/moatmar' className='hover:scale-110 transition-all duration-300'>المؤتمرات</Link>
             
-                <Link href='#' className='hover:scale-110 transition-all duration-300'>القوائم</Link>
+                <Link href='#mrayat' className='hover:scale-110 transition-all duration-300'>القوائم</Link>
             
-                <Link href='#' className='hover:scale-110 transition-all duration-300'>الملتقيات وورش العمل</Link>
+                <Link href='#mltka' className='hover:scale-110 transition-all duration-300'>الملتقيات وورش العمل</Link>
             
-                <Link href='#' className='hover:scale-110 transition-all duration-300'>من نحن </Link>
+                <Link href='#abuate' className='hover:scale-110 transition-all duration-300'>من نحن </Link>
             
-                <Link href='#' className='hover:scale-110 transition-all duration-300'>التواصل</Link>
+                <Link href='#conectus' className='hover:scale-110 transition-all duration-300'>التواصل</Link>
         </div>
     </div>
   )

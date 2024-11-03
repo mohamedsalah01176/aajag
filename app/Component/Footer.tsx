@@ -21,17 +21,24 @@ export default function Footer() {
                 <div className="">
 
                     <h4 className="text-3xl font-bold mb-4">تواصل معنا عبر الميديا</h4>
-                    <div className="flex gap-3 justify-center">
-                        <a className="hover:scale-125 transition-all duration-300 mx-1 text-3xl" rel="noopener noreferrer"
+                    <div className="flex flex-col items-center gap-3 justify-center">
+                        <a className="hover:scale-125 transition-all duration-300 mx-1 flex gap-2 items-center text-3xl" rel="noopener noreferrer"
                             href="https://www.facebook.com/profile.php?id=100064457868930&mibextid=ZbWKwL"
-                            target="_blank"><FaFacebook/></a>
-                        <a className="hover:scale-125 transition-all duration-300 mx-1 text-3xl" rel="noopener noreferrer"
+                            target="_blank">
+                            <p className="text-lg text-whitel">eagaaz</p>
+                            <FaFacebook className="text-[25px]"/>
+                            </a>
+                        <a className="hover:scale-125 transition-all duration-300 mx-1 flex gap-2 items-center text-3xl" rel="noopener noreferrer"
                             href="https://youtube.com/channel/UC_3xz2x7RSjCNkh_6OGahbA?si=8OL0oXbLQln1221s"
-                            target="_blank"><FaYoutube/></a>
+                            target="_blank">
+                            <p className="text-lg text-whitel">eagaaz</p>
+                            <FaYoutube className="text-[25px]"/>
+                            </a>
                         {/* <a className="hover:scale-125 transition-all duration-300 mx-1 text-3xl" href="http://wa.me/+201029870060"
                             target="_blank"><i className="fa-brands fa-whatsapp"></i></a> */}
-                        <a className="hover:scale-125 transition-all duration-300 mx-1 text-3xl" href="tel:+201029870060" rel="noopener noreferrer" target="_blank">
-                            <FaPhone/>
+                        <a className="hover:scale-125 transition-all duration-300 mx-1 text-3xl flex gap-1 items-center" href="tel:+201029870060" rel="noopener noreferrer" target="_blank">
+                            <p className="text-lg text-whitel">201029870060+</p>
+                            <FaPhone className="text-[25px]"/>
                         </a>
                     </div>
                 </div>

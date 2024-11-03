@@ -49,7 +49,7 @@ export default function ContactUs() {
     console.log(validemail)
   }
   return (
-    <div className='text-black p-10 text-center'>
+    <div id='conectus' className='text-black p-10 text-center'>
       {sendData?
       <div className='fixed top-0 left-0 w-full h-[100vh] bg-black/50'>
         <div className='absolute top-[50%] left-[50%] min-w-[200px] h-[200px] flex items-center flex-col  justify-center translate-x-[-50%] translate-y-[-50%] bg-white rounded-lg p-5'>

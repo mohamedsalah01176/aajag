@@ -13,10 +13,10 @@ export default function Home() {
     <Section1/>
     <Aboute/>
     <Activites/>
-    <Templat color={'text-green-800'} background={'bg-white'} colorOpp={'text-white'} backgroundOpp={'bg-green-800'} title={<h1 className='text-center text-[33px] md:text-[45px] font-bold '>مؤتمر الاعجاز العلمي</h1>} link={'moatmar.tsx'} des="هذذا هوتمر الاعجاز العلمي  " />
-    <Templat color={'text-white'} background={'bg-green-800'} colorOpp={'text-green-800'} backgroundOpp={'bg-white'} title={<h2 className='text-center text-[33px] md:text-[45px] font-bold '>المرئيات</h2>} link={'moatmar.tsx'} des="هذذا هوتمر الاعجاز العلمي  "/>
-    <Templat color={'text-green-800'} background={'bg-white'} colorOpp={'text-white'} backgroundOpp={'bg-green-800'} title={<h2 className='text-center text-[33px] md:text-[45px] font-bold '>الاصدارات و المطبوعات</h2>} link={'moatmar.tsx'} des="هذذا هوتمر الاعجاز العلمي  "/>
-    <Templat color={'text-white'} background={'bg-green-800'} colorOpp={'text-green-800'} backgroundOpp={'bg-white'} title={<h2 className='text-center text-[33px] md:text-[45px] font-bold '>الملتقيات و ورش العمل</h2>} link={'moatmar.tsx'} des="هذذا هوتمر الاعجاز العلمي  "/>
+    <Templat id="kwam" color={'text-green-800'} background={'bg-white'} colorOpp={'text-white'} backgroundOpp={'bg-green-800'} title={<h1 className='text-center text-[33px] md:text-[45px] font-bold '>مؤتمر الاعجاز العلمي</h1>} link={'moatmar'} des="هذذا هوتمر الاعجاز العلمي  " />
+    <Templat id="mrayat" color={'text-white'} background={'bg-green-800'} colorOpp={'text-green-800'} backgroundOpp={'bg-white'} title={<h2 className='text-center text-[33px] md:text-[45px] font-bold '>المرئيات</h2>} link={'#'} des="هذذا هوتمر الاعجاز العلمي  "/>
+    <Templat id="mltka" color={'text-green-800'} background={'bg-white'} colorOpp={'text-white'} backgroundOpp={'bg-green-800'} title={<h2 className='text-center text-[33px] md:text-[45px] font-bold '>الاصدارات و المطبوعات</h2>} link={'#'} des="هذذا هوتمر الاعجاز العلمي  "/>
+    <Templat id="" color={'text-white'} background={'bg-green-800'} colorOpp={'text-green-800'} backgroundOpp={'bg-white'} title={<h2 className='text-center text-[33px] md:text-[45px] font-bold '>الملتقيات و ورش العمل</h2>} link={'#'} des="هذذا هوتمر الاعجاز العلمي  "/>
     <ContactUs/>
    </section>
   ); 

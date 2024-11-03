@@ -67,16 +67,16 @@ export default function Day1() {
             </div>
                 {item.info.map((doc,index)=>
                 <div key={index} className='mt-9 mb-14'>
-                    <div className='flex flex-col md:flex-row mx-auto justify-center items-center  gap-7 mb-7'>
-                        <div className='w-full md:w-5/12 text-right p-7'> 
+                    <div className='flex flex-col md:flex-row mx-auto justify-center items-center  gap-7 mb-20'>
+                        <div className='w-full md:w-5/12  py-12 flex gap-3 flex-col text-center'> 
                             <h2  className='text-black text-2xl'><span className='text-[30px] text-green-800'>الدكتور:</span> {doc.name}</h2>
                             <p className='text-black'><span className='text-[30px] text-green-800'>الوصف:  </span> {doc.dec} </p>
+                            <a target='_blank' href={doc.pdf}  className='cursor-pointer my-5 mx-auto  w-[160px] text-center  bg-green-800 rounded-lg text-white p-2 hover:bg-white hover:text-green-800 transition-all duration-300 hover:border-green-800 border-2 border-white  '>تحميل الملف </a>
                         </div>
                         <div className='w-full md:w-6/12 px-5'>
                             <iframe loading='lazy' width="" height="315" className='w-[330px] md:w-[560px] h-[290px] md:h-[315px]' src={doc.link} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                         </div>
                     </div>
-                    <a target='_blank' href={doc.pdf}  className='cursor-pointer   bg-green-800 rounded-lg text-white p-2 hover:bg-white hover:text-green-800 transition-all duration-300 hover:border-green-800 border-2 border-white  '>تحميل الملف </a>
                 </div>
                 )}
                 {/* <div className='w-[500px] h-[2px] bg-green-800 mx-auto'></div> */}

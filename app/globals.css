@@ -12,3 +12,7 @@ body{
   font-size: 22px;
   font-size: 28px;
 }
+html{
+  scroll-behavior: smooth;
+
+}
